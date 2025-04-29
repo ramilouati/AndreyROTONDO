@@ -1,15 +1,14 @@
 FROM php:8.1-apache
 
-# Copy all your PHP files
-COPY . /var/www/html/
-
-# Enable Apache rewrite module (for .htaccess)
+# Enable .htaccess support
 RUN a2enmod rewrite
 
-# Add a custom Apache config to allow .htaccess overrides
-RUN echo "<Directory /var/www/html/> \n\
-    AllowOverride All \n\
-    Require all granted \n\
+# Allow .htaccess overrides
+RUN echo "<Directory /var/www/html/> \
+    AllowOverride All \
+    Require all granted \
 </Directory>" > /etc/apache2/conf-available/allow-htaccess.conf && \
-    a2enconf allow-htaccess && \
-    service apache2 restart
+    a2enconf allow-htaccess
+
+# Copy source code to the Apache root
+COPY . /var/www/html/

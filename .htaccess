@@ -1,7 +1,9 @@
 # .htaccess
+Options +FollowSymLinks
 RewriteEngine On
 RewriteBase /
 
-# Direct .php requests to real files
+# Only rewrite requests that are not files or directories
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.*)\.php$ $1.php [L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)$ $1 [L]
