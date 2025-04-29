@@ -48,10 +48,10 @@
           <div class="col-lg-6 d-flex align-items-center">
             <div class="row">
               <div class="col-6 position-relative " data-aos="fade-down">
-                <img src="assets/img/acceuil.png" class="img-fluid bio bio1" alt="">
+                <img src="assets/img/acceuil.PNG" class="img-fluid bio bio1" alt="">
               </div>
               <div class="col-6 position-relative" data-aos="fade-up">
-                <img src="assets/img/acceuil.png" class="img-fluid bio bio2" alt="">
+                <img src="assets/img/acceuil.PNG" class="img-fluid bio bio2" alt="">
               </div>
             </div>
           </div>
