@@ -1,4 +1,4 @@
-# Enable rewriting
+# Enable mod_rewrite
 RewriteEngine On
 RewriteBase /
 
