@@ -1,6 +1,6 @@
 FROM php:8.1-apache
 
-# Enable Apache mod_rewrite (for URL rewriting)
+# Enable Apache mod_rewrite for URL rewriting
 RUN a2enmod rewrite
 
 # Allow .htaccess overrides

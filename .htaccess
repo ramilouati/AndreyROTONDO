@@ -5,3 +5,6 @@ RewriteBase /
 # Internally rewrite /about → /about.php
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^([^/]+)$ $1.php [L]
+
+# Optionally: Handle errors, like if page doesn't exist
+ErrorDocument 404 /404.php
