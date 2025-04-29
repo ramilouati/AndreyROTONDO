@@ -15,7 +15,7 @@
           <div class="col-lg-8">
             <h2>Andrey ROTONDO</h2>
             <p>Citizen | Republican | Lawyer</p>
-            <a href="../portfolio/about.php" class="btn-get-started">À propos</a>
+            <a href="/about.php" class="btn-get-started">À propos</a>
           </div>
         </div>
       </div>

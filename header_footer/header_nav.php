@@ -11,11 +11,11 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
       <nav id="navmenu" class="navmenu">
       <ul>
-        <li><a href="../portfolio/index.php" class="<?= ($current_page == 'index.php') ? 'active' : '' ?>">Accueil</a></li>
-        <li><a href="../portfolio/about.php" class="<?= ($current_page == 'about.php') ? 'active' : '' ?>">A propos</a></li>
-        <li><a href="../portfolio/pub_scientifiques.php" class="<?= ($current_page == 'pub_scientifiques.php') ? 'active' : '' ?>">Publications scientifiques</a></li>
-        <li><a href="../portfolio/Article_de_presse.php" class="<?= ($current_page == 'Article_de_presse.php') ? 'active' : '' ?>">Articles de presse</a></li>
-        <li><a href="../portfolio/contact.php" class="<?= ($current_page == 'contact.php') ? 'active' : '' ?>">Contact</a></li>
+        <li><a href="/index.php" class="<?= ($current_page == 'index.php') ? 'active' : '' ?>">Accueil</a></li>
+        <li><a href="/about.php" class="<?= ($current_page == 'about.php') ? 'active' : '' ?>">A propos</a></li>
+        <li><a href="/pub_scientifiques.php" class="<?= ($current_page == 'pub_scientifiques.php') ? 'active' : '' ?>">Publications scientifiques</a></li>
+        <li><a href="/Article_de_presse.php" class="<?= ($current_page == 'Article_de_presse.php') ? 'active' : '' ?>">Articles de presse</a></li>
+        <li><a href="/contact.php" class="<?= ($current_page == 'contact.php') ? 'active' : '' ?>">Contact</a></li>
       </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
