@@ -1,9 +1,7 @@
-# .htaccess
-Options +FollowSymLinks
+# Enable rewriting
 RewriteEngine On
 RewriteBase /
 
-# Only rewrite requests that are not files or directories
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.+)$ $1 [L]
+# Internally rewrite /about → /about.php
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^/]+)$ $1.php [L]
