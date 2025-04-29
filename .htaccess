@@ -1,0 +1,7 @@
+# .htaccess
+RewriteEngine On
+RewriteBase /
+
+# Direct .php requests to real files
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)\.php$ $1.php [L]
