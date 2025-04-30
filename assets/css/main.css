@@ -9,22 +9,22 @@
   --background-color: #ffffff; 
   --default-color: #header; 
   --heading-color: #222222;
-  --accent-color: rgba(0,158,96,255); 
+  --accent-color: #6200EE; 
   --surface-color: #ffffff; 
   --contrast-color: #ffffff; 
 }
 
 :root {
   --nav-color: #444444; 
-  --nav-hover-color: rgba(0,158,96,255); 
+  --nav-hover-color: #6200EE; 
   --nav-mobile-background-color: #ffffff; 
   --nav-dropdown-background-color: #ffffff;
   --nav-dropdown-color: #444444; 
-  --nav-dropdown-hover-color: #3a75c4; 
+  --nav-dropdown-hover-color: #6200EE; 
 }
 
 .light-background {
-  --background-color: #e9e8e6;
+  --background-color: rgb(202, 182, 228,0.95);
   --surface-color: #ffffff;
 }
 
@@ -82,7 +82,7 @@ h6 {
 .php-email-form .sent-message {
   display: none;
   color: #ffffff;
-  background: #059652;
+  background: #6200EE;
   text-align: center;
   padding: 15px;
   margin-bottom: 24px;
@@ -719,7 +719,7 @@ section,
 
 .hero .btn-get-started {
   color: var(--contrast-color);
-  background: rgba(0,158,96,255);
+  background: #6200EE;
   font-family: var(--heading-font);
   text-transform: uppercase;
   font-weight: 600;
@@ -730,10 +730,12 @@ section,
   border-radius: 50px;
   transition: 0.5s;
   margin-top: 30px;
+  transition: all 1s ease;
 }
 
 .hero .btn-get-started:hover {
-  background: color-mix(in srgb,rgba(0,158,96,255)90%, white 30%);
+  background: color-mix(in srgb,#6200EE 90%, white 30%);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 768px) {
@@ -779,7 +781,7 @@ section,
 .content p{
   font-size: 18px ;
   color: #5e5e5e;
-  font-family: var(--default-font);
+  font-family: var(--nav-font);
   line-height: 32px;
   letter-spacing: -0.2px;
   font-weight: 400;
@@ -853,16 +855,20 @@ section,
   background-color: rgba(0, 158, 95, 0.05);
 }
 
+.text-pink {
+  color: #6200EE;
+}
+
 .biographie {
   font-weight: 600;
-  color: rgba(0,158,96,255);;
+  color: #6200EE;
   text-decoration: none;
   transition: all 0.3s ease;
   font-size: 19px;
 }
 
 .biographie:hover {
-  color: rgba(0,158,96,255);
+  color: #6200EE;
 }
 
 .icon-size {
@@ -871,7 +877,7 @@ section,
 
 
 .engagement{
-  background-color: rgba(252,209,22,0.07);
+  background-color: rgba(98, 0, 238, 0.07);
 }
 
 .img-style {
@@ -897,7 +903,7 @@ section,
 .image-wrapper {
   position: relative;
   overflow: hidden;
-  border-radius: 15px;
+  border-radius: 13px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
   transition: transform 0.4s ease, box-shadow 0.4s ease;
   height: 90%;

@@ -48,10 +48,10 @@
           <div class="col-lg-6 d-flex align-items-center">
             <div class="row">
               <div class="col-6 position-relative " data-aos="fade-down">
-                <img src="assets/img/acceuil.PNG" class="img-fluid bio bio1" alt="">
+                <img src="assets/img/acceuil.png" class="img-fluid bio bio1" alt="">
               </div>
               <div class="col-6 position-relative" data-aos="fade-up">
-                <img src="assets/img/acceuil.PNG" class="img-fluid bio bio2" alt="">
+                <img src="assets/img/acceuil.png" class="img-fluid bio bio2" alt="">
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@
 
     <section id="stats" class="stats section">
       <div class="container section-title content" data-aos="fade-up">
-        <h1 class="text-start text-success">Vie associative</h1>
+        <h1 class="text-start text-pink">Vie associative</h1>
         <p class="py-2 text-start">
           Durant son séjour dakarois, Andrey développe un intérêt prononcé pour la vie associative. Il
           s’engage ainsi activement au sein de l’Amicale des Étudiants Gabonais de son université, dont il
@@ -117,7 +117,7 @@
                                                        
             </p>
           </div>
-          <div class="col-lg-7">
+          <div class="col-lg-7" data-aos="zoom-in-left">
             <div class="row">
               <div class="col-6">
                 <img src="assets/img/acceuil.png" class="img-style" alt="Image 1">
